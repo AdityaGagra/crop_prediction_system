@@ -22,7 +22,7 @@ model.pkl: The saved machine learning model.
 
 scaler.pkl & label_encoder.pkl: Files used for data normalization and category encoding.
 
-requirements (1).txt: List of Python libraries required to run the project.
+requirements.txt: List of Python libraries required to run the project.
 
 🛠️ Installation & Setup
 1. Clone the Repository:
@@ -31,10 +31,10 @@ cd crop_prediction_system
 
 2.Install Dependencies:
 Make sure you have Python installed, then run:
-pip install -r "requirements (1).txt"
+pip install -r "requirements.txt"
 3.Run the Application:
 python app.py
-Once running, open your browser and go to http://127.0.0.1:5000.
+Once running, open your browser and go to http://localhost:8501
 
 🧪 Parameters Used for Prediction
 To get a recommendation, the system requires:
